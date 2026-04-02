@@ -58,11 +58,11 @@ services:
     networks:
       - app-network
 
-volumes:
-  postgres_data:
-    name: lab1-postgres-data
-
 networks:
   app-network:
     name: lab1-network
     driver: bridge
+
+volumes:
+  postgres_data:
+    name: lab1-postgres-data

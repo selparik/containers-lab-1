@@ -12,7 +12,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: suslik-ilya/containers-lab-1
+  IMAGE_NAME: selparik/containers-lab-1
 
 jobs:
   build:
